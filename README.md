@@ -57,5 +57,5 @@ REACT_APP_KEY=the-app-key
 * Connect your GitHub account https://app.netlify.com/user/settings
 * Press "Add new site" --> "Import an existing project" --> Select GitHub 
 * Select either this repository or all allow all your repositories
-* Configure by adding your the two environment variables REACT_APP_ID, REACT_APP_KEY and then deploy
+* Configure by adding your two environment variables REACT_APP_ID, REACT_APP_KEY with the correct values and then deploy
 * Congratulations, you have a deployed project!

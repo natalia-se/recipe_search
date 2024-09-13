@@ -38,7 +38,7 @@ You may also see any lint errors in the console.
 ## 4. Create an Edamam app and use the API
 * Create an app find the app-id and key: https://developer.edamam.com/admin/applications
 * Create a file called ".env" in the same root directory where you see the .gitignore and package.json. 
-* In the .env file add the two rows bellow, but with the-app-id and the-app-key switched to your app values. No citation marks.
+* In the .env file add the two following variables on one row each, but with the-app-id and the-app-key switched to your app values. No citation marks.
 REACT_APP_ID=the-app-id
 REACT_APP_KEY=the-app-key
 
@@ -57,5 +57,5 @@ REACT_APP_KEY=the-app-key
 * Connect your GitHub account https://app.netlify.com/user/settings
 * Press "Add new site" --> "Import an existing project" --> Select GitHub 
 * Select either this repository or all allow all your repositories
-* Review configuration and deploy
+* Configure by adding your the two environment variables REACT_APP_ID, REACT_APP_KEY and then deploy
 * Congratulations, you have a deployed project!

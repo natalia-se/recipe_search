@@ -4,7 +4,7 @@
 - Install Node.js. It provides the runtime environment for JavaScript code execution. Node Package Manager (npm) is bundled with Node.js and used to manage project dependencies.
 https://nodejs.org/en/download/package-manager/current
 
-- Create an GitHub account to version control your code and allow for easier deployment.
+- Create a GitHub account to version control your code and allow for easier deployment.
 https://github.com/
 
 - If you haven't got Git installed follow this guide to install it
@@ -25,7 +25,7 @@ https://developer.edamam.com/edamam-recipe-api
 
 ## 3. Install packages and start the app
 ### npm install
-This command installs a package and any packages that it depends on.This must be run before trying to start the app.
+This command installs a package and any packages that it depends on. This must be run before trying to start the app.
 
 ### npm start
 Runs the app in the development mode.\
@@ -37,7 +37,10 @@ You may also see any lint errors in the console.
 
 ## 4. Create an Edamam app and use the API
 * Create an app find the app-id and key: https://developer.edamam.com/admin/applications
-* Update the App.js variables APP_ID, APP_KEY with your app-id and key
+* Create a file called ".env" in the same root directory where you see the .gitignore and package.json. 
+* In the .env file add the two rows bellow, but with the-app-id and the-app-key switched to your app values. No citation marks.
+REACT_APP_ID=the-app-id
+REACT_APP_KEY=the-app-key
 
 
 ## 5. Update display of recipes

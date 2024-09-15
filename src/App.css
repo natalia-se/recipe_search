@@ -1,7 +1,7 @@
 /* variables to easaily changes styles */
 :root {
   --pink: rgba(203, 115, 143, 1);
-  --pink-light: rgba(203,161,175,1);
+  --pink-light: rgba(203, 161, 175, 1);
   --white: #ffffff;
   --white-transparent: #ffffff20;
 }
@@ -29,6 +29,11 @@ body {
   border: 1px solid var(--pink);
   padding-bottom: 1rem;
   text-align: center;
+  border-radius: 25px;
+}
+
+.recipe-img {
+  border-radius: 25px;
 }
 
 /* buttons */
@@ -42,6 +47,7 @@ body {
   text-decoration: none;
   font-size: 1rem;
   cursor: pointer;
+  border-radius: 25px;
 }
 
 .button:hover {
@@ -59,7 +65,7 @@ body {
   padding: 0.5rem 3rem;
 }
 
-.search-bar input[type=text] {
+.search-bar input[type="text"] {
   border: none;
   font-size: 1rem;
   padding: 0.5rem 1rem;
